@@ -16,7 +16,7 @@ conda create -p venv python==3.7 -y
 '''
 conda activate venv/
 '''
-or
+OR
 '''
 conda activate venv
 '''
@@ -61,3 +61,14 @@ To check remote url
 '''
 git remote -v
 '''
+
+TO setup CI/CD pipeline in heroku we need 3 information
+
+1. HEROKU_EMAIL = samirsaiyed49@gmail.com
+2. HEROKU_API_KEY = 
+3. HEROKU_APP_NAME = 
+
+BUILD DOCKER IMAGE
+'''
+docker build -t <image_name>:<tagname> . 
+> notes : image name for docker must be lowercase
